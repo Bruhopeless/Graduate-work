@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { ServiceRegService } from '../service/service-reg.service';
 
 @Component({
   selector: 'app-registration',
@@ -7,8 +8,13 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrl: './registration.component.css'
 })
 export class RegistrationComponent implements OnInit {
+
+  constructor(private userDb: ServiceRegService) {}
+  
   form!: FormGroup;
   passType = 'password';
+  passTypeRep = 'password';
+  myControl = '';
 
   ngOnInit(): void {
     this.form = new FormGroup ({
@@ -42,5 +48,25 @@ export class RegistrationComponent implements OnInit {
     else {
       this.passType = "password";
     }
+  }
+
+  showPassRep() {
+    if(this.passTypeRep === "password") {
+      this.passTypeRep = "text";
+    }
+    else {
+      this.passTypeRep = "password";
+    }
+  }
+
+  addUser() {
+    this.userDb.addUsers({
+      firstName: this.form.get('firstName')?.value,
+      lastName: this.form.get('lastName')?.value,
+      email: this.form.get('email')?.value,
+      pass: this.form.get('pass')?.value,
+      role: 'user'
+    })
+    .subscribe((data) => console.log(data));
   }
 }

@@ -38,14 +38,15 @@
 
         <div class="form-group">
             <label for="repeatPassword">Repeat password</label>
-            <input [type]="passType" 
+            <input [type]="passTypeRep" 
                    class="form-control"
                    formControlName="repPass">
-            <button (click)="showPass()">Глазик</button>
+            <button (click)="showPassRep()">Глазик</button>
             <p class="error" *ngIf="form.errors?.['passwordMismatch'] && form.get('repPass')?.touched">Пароль не совпадает</p>
         </div>
         <button class="btn"
                 type="submit"
-                [disabled]="form.invalid">Submit</button>
+                [disabled]="form.invalid"
+                (click)="addUser()">Submit</button>
     </form>
 </div>

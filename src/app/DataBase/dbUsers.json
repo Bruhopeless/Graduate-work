@@ -1,18 +1,28 @@
 {
-    "users": [
-        {
-            "firstName": "",
-            "lastName": "",
-            "email": "",
-            "password": "",
-            "role": "admin"
-        },
-        {
-            "firstName": "",
-            "lastName": "",
-            "email": "",
-            "password": "",
-            "role": "user"
-        }
-    ]
+  "users": [
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "firstName": "Valeriia",
+      "lastName": "Kostenko",
+      "email": "lera22ok@ukr.net",
+      "pass": "hHGH131Hfs",
+      "role": "user",
+      "id": 3
+    }
+  ]
 }
