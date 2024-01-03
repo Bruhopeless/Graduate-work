@@ -1,28 +1,52 @@
 <div class="container">
     <h1>Registration</h1>
-<form action="">
-    <div>
-        <label for="firstName">First Name</label>
-        <input type="text" name="firstName" id="firstName">
-    </div>
-    <div>
-        <label for="lastName">Last Name</label>
-        <input type="text" name="firstName" id="firstName">
-    </div>
-    <div>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-    </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <button>Глазик</button>
-    </div>
-    <div>
-        <label for="repeatPassword">Repeat password</label>
-        <input type="password" name="repeatPassword" id="repeatPassword">
-        <button>Глазик</button>
-    </div>
-    <button>Submit</button>
-</form>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" 
+                   class="form-control"
+                   formControlName="firstName">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-group"
+             [ngClass]="{'has-error':form.get('lastName')?.invalid && form.get('lastName')?.touched}">
+            <label for="lastName">Last Name</label>
+            <input type="text" 
+                   class="form-control"
+                   formControlName="lastName">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" 
+                   class="form-control"
+                   formControlName="email"
+                   email>
+                   <p class="error" *ngIf="form.get('email')?.invalid && form.get('email') ?.touched">Введите корректный email</p>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" 
+                   class="form-control"
+                   pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/"
+                   formControlName="pass">
+            <button>Глазик</button>
+            <p class="error" *ngIf="form.get('pass')?.invalid && form.get('pass')?.touched">Введите пароль от 8 символов</p>
+        </div>
+
+        <div class="form-group">
+            <label for="repeatPassword">Repeat password</label>
+            <input type="password" 
+                   class="form-control"
+                   formControlName="repPass">
+            <button>Глазик</button>
+            <p class="error" *ngIf="form.errors?.['passwordMismatch'] && form.get('repPass')?.touched">Пароль не совпадает</p>
+        </div>
+        <button class="btn"
+                type="submit"
+                [disabled]="form.invalid">Submit</button>
+    </form>
 </div>
