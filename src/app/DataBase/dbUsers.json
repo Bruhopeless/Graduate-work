@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "role": "admin"
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "role": "user"
+        }
+    ]
+}
