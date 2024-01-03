@@ -8,13 +8,14 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class RegistrationComponent implements OnInit {
   form!: FormGroup;
+  passType = 'password';
 
   ngOnInit(): void {
     this.form = new FormGroup ({
       firstName: new FormControl('', Validators.required),
       lastName: new FormControl('', Validators.required),
       email: new FormControl('', Validators.required),
-      pass: new FormControl('', Validators.required),
+      pass: new FormControl('',  [Validators.required, Validators.pattern(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/)]),
       repPass: new FormControl ('', Validators.required)},
       { validators: this.passwordSame } as any
     );
@@ -32,5 +33,14 @@ export class RegistrationComponent implements OnInit {
 
   onSubmit() {
     
+  }
+
+  showPass() {
+    if(this.passType === "password") {
+      this.passType = "text";
+    }
+    else {
+      this.passType = "password";
+    }
   }
 }
