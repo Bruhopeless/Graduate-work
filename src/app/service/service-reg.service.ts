@@ -14,6 +14,10 @@ export class ServiceRegService {
   addUsers(user: userModel ): Observable<any[]> {
     return this.http.post<any[]>(this.urlDb, user)
   }
+
+  getUsers(): Observable<any[]> {
+    return this.http.get<any[]>(this.urlDb);
+  }
 }
 
 export class userModel {
