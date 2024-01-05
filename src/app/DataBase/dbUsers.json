@@ -25,15 +25,24 @@
       "id": 3
     }
   ],
-  "product": [
+  "products": [
     {
-      "name": "",
+      "name": "Nike Air Max TW",
+      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
+      "description": "Men's Weatherised Road Runnind Shoes",
+      "price": "79.70",
+      "discount": 50,
+      "count": 3,
+      "id": 3
+    },
+    {
+      "name": "sfsafasfd",
       "img": "",
-      "description": "",
-      "price": "",
-      "discount": "",
-      "count": "",
-      "id": ""
+      "description": "sfsafaasfd",
+      "price": "2",
+      "discount": "5",
+      "count": 0,
+      "id": 4
     }
   ]
 }

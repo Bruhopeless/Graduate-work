@@ -1,1 +1,48 @@
-<p>admin-panel works!</p>
+<div class="panel">
+    <div>
+        <div>Name</div>
+        <input type="text" [(ngModel)]="nameValue">
+    </div>
+    <div>
+        <div>Image</div>
+        <input type="text" [(ngModel)]="imgValue">
+    </div>
+    <div>
+        <div>Description</div>
+        <input type="text" [(ngModel)]="descriptionValue">
+    </div>
+    <div>
+        <div>Price</div>
+        <input type="text" [(ngModel)]="priceValue">
+    </div>
+    <div>
+        <div>Discount</div>
+        <input type="text" [(ngModel)]="discountValue">
+    </div>
+    <div>
+        <div>Count</div>
+        <input type="text" [(ngModel)]="countValue">
+    </div>
+    <div>
+        <div *ngIf="!editMode">
+            <button (click)="addProduct()">Add</button>
+        </div>
+        <div *ngIf="editMode">
+            <button (click)="saveProduct()">Save</button>
+            <button (click)="cancelProduct()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<div class="panel-prod">
+    <div *ngFor="let product of products">
+        <div>{{ product.name }}</div>
+        <img src="{{ product.img }}" alt="nike">
+        <div>{{ product.description }}</div>
+        <div>{{ product.price }}€</div>
+        <div>{{ product.discount }}%</div>
+        <div>{{ product.count}}</div>
+        <button (click)="editProduct(product)">Edit</button>
+        <button (click)="deleteProduct(product.id)">Delete</button>
+    </div>
+</div>
