@@ -24,5 +24,16 @@
       "role": "user",
       "id": 3
     }
+  ],
+  "product": [
+    {
+      "name": "",
+      "img": "",
+      "description": "",
+      "price": "",
+      "discount": "",
+      "count": "",
+      "id": ""
+    }
   ]
 }
