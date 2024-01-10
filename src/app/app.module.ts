@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { UserRoleComponent } from './user-role/user-role.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
     RegistrationComponent,
     SignInComponent,
     AdminPanelComponent,
+    UserRoleComponent,
   ],
   imports: [
     BrowserModule,
