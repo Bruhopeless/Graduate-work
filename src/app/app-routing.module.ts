@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { RegistrationComponent } from './registration/registration.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { UserRoleComponent } from './user-role/user-role.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,14 @@ const routes: Routes = [
     path: 'admin-panel',
     component: AdminPanelComponent
   },
+  {
+    path: 'products',
+    component: AdminPanelComponent
+  },
+  {
+    path: 'user-role',
+    component: UserRoleComponent
+  }
 ];
 
 @NgModule({

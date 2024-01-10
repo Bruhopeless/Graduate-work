@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { ServiceRegService } from '../service/service-reg.service';
+import { ServiceRegService, userModel } from '../service/service-reg.service';
 
 @Component({
   selector: 'app-registration',
@@ -66,7 +66,7 @@ export class RegistrationComponent implements OnInit {
       email: this.form.get('email')?.value,
       pass: this.form.get('pass')?.value,
       role: 'user'
-    })
+    } as userModel)
     .subscribe((data) => console.log(data));
   }
 }

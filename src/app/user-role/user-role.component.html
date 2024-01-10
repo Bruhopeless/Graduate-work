@@ -1,1 +1,12 @@
-<p>user-role works!</p>
+<a class="button" routerLink="/products">Products</a>
+<div class="panel-users">
+    <div *ngFor="let user of users">
+        <div>{{ user.firstName }} {{ user.lastName }}</div>
+        <div>{{ user.email }}</div>
+        <div>{{ user.role }}</div>
+        <button *ngIf="user.role == 'user'"
+                (click)="changeRole(user)">Change to admin</button>
+        <button *ngIf="user.role == 'admin'"
+                (click)="changeRole(user)">Change to user</button>
+    </div>
+</div>

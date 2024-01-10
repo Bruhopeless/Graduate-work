@@ -1,33 +1,24 @@
 {
   "users": [
     {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "password": "",
-      "role": "admin",
-      "id": 1
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "password": "",
+      "firstName": "Vasiya",
+      "lastName": "Pupkin",
+      "email": "teamwork42@gmail.com",
       "role": "user",
-      "id": 2
+      "id": 1
     },
     {
       "firstName": "Valeriia",
       "lastName": "Kostenko",
       "email": "lera22ok@ukr.net",
       "pass": "hHGH131Hfs",
-      "role": "user",
-      "id": 3
+      "role": "admin",
+      "id": 2
     }
   ],
   "products": [
     {
-      "name": "Nike Air Max TW",
+      "name": "Nike Air Max ",
       "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
       "description": "Men's Weatherised Road Runnind Shoes",
       "price": "79.70",

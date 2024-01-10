@@ -18,6 +18,10 @@ export class ServiceRegService {
   getUsers(): Observable<any[]> {
     return this.http.get<any[]>(this.urlDb);
   }
+
+  swapRole(user: userModel): Observable<any[]> {
+    return this.http.put<any[]>(`${this.urlDb}/${user.id}`, user);
+  }
 }
 
 export class userModel {
@@ -26,4 +30,5 @@ export class userModel {
   email: string;
   pass: string;
   role: string;
+  id: number;
 }
