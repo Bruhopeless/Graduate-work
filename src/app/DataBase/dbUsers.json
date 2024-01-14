@@ -6,7 +6,7 @@
       "email": "teamwork42@gmail.com",
       "pass": "HFhhu1hjf",
       "role": "user",
-      "id": 1
+      "id": 0
     },
     {
       "firstName": "Valeriia",
@@ -14,7 +14,7 @@
       "email": "lera22ok@ukr.net",
       "pass": "hHGH131Hfs",
       "role": "admin",
-      "id": 2
+      "id": 1
     }
   ],
   "products": [
@@ -25,7 +25,7 @@
       "price": "79.70",
       "discount": 50,
       "count": 3,
-      "id": 3
+      "id": 2
     },
     {
       "name": "sfsafasfd",
@@ -34,7 +34,7 @@
       "price": "2",
       "discount": "5",
       "count": 0,
-      "id": 4
+      "id": 3
     }
   ]
 }

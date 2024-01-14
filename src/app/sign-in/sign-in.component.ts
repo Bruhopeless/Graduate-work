@@ -35,6 +35,7 @@ export class SignInComponent {
                       console.log(data[i]);
                       this.userServ.saveUser(data[i]);
                       this.errorMess = false;
+                      break
                     }
                     else {
                       this.errorMess = true;
