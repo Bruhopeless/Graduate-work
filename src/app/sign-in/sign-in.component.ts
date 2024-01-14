@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { ServiceRegService } from '../service/service-reg.service';
+import { ServiceRegService, userModel } from '../service/service-reg.service';
+import { RoleServiceService } from '../service/role-service.service';
 
 @Component({
   selector: 'app-sign-in',
@@ -9,7 +10,7 @@ import { ServiceRegService } from '../service/service-reg.service';
 })
 export class SignInComponent {
 
-  constructor(private userDb: ServiceRegService) {}
+  constructor(private userDb: ServiceRegService, private userServ: RoleServiceService) {}
 
   form!: FormGroup;
   errorMess = false;
@@ -31,7 +32,8 @@ export class SignInComponent {
                .subscribe((data) => {
                   for (let i = 0; i < data.length; i++) {
                     if (this.form.get('email')?.value === data[i].email && this.form.get('pass')?.value === data[i].pass) {
-                      console.log(1);
+                      console.log(data[i]);
+                      this.userServ.saveUser(data[i]);
                       this.errorMess = false;
                     }
                     else {
@@ -40,5 +42,4 @@ export class SignInComponent {
                   }
                });
   }
-
 }

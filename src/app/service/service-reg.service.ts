@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ServiceRegService {
 
-  constructor(private http: HttpClient ) { }
+  constructor(private http: HttpClient) { }
 
   urlDb = 'http://localhost:3000/users';
 

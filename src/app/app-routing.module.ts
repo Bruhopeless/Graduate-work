@@ -4,6 +4,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { UserRoleComponent } from './user-role/user-role.component';
+import { AdminGuard } from './admin.guard';
 
 const routes: Routes = [
   {
@@ -21,7 +22,8 @@ const routes: Routes = [
   },
   {
     path: 'admin-panel',
-    component: AdminPanelComponent
+    component: AdminPanelComponent,
+    canActivate: [AdminGuard]
   },
   {
     path: 'products',
