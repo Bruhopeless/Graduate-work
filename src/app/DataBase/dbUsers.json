@@ -15,6 +15,14 @@
       "pass": "hHGH131Hfs",
       "role": "admin",
       "id": 1
+    },
+    {
+      "firstName": "Alexsandr",
+      "lastName": "Petrov",
+      "email": "teamgidhub@gmail.com",
+      "pass": "hghHfhw1fd",
+      "role": "admin",
+      "id": 2
     }
   ],
   "products": [

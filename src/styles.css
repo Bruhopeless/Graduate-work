@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Oswald', sans-serif;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/src/assets/fonts/Oswald-VariableFont_wght.ttf") format('truetype');
+}
