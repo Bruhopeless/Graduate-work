@@ -5,12 +5,18 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { UserRoleComponent } from './user-role/user-role.component';
 import { AdminGuard } from './admin.guard';
+import { HomePageComponent } from './home-page/home-page.component';
+import { DetailsProductComponent } from './details-product/details-product.component';
 
 const routes: Routes = [
   {
     path: '', 
-    redirectTo: 'registration',
+    redirectTo: 'home-page',
     pathMatch: 'full'
+  },
+  {
+    path: 'home-page',
+    component: HomePageComponent
   },
   {
     path: 'registration',
@@ -32,6 +38,10 @@ const routes: Routes = [
   {
     path: 'user-role',
     component: UserRoleComponent
+  },
+  {
+    path: 'details/:id',
+    component: DetailsProductComponent
   }
 ];
 

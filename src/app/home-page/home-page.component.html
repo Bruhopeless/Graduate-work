@@ -1,0 +1,8 @@
+<h2>Home page</h2>
+
+<div *ngFor="let product of products">
+    <div>{{ product.name }}</div>
+    <img src="{{ product.img }}" alt="nike">
+    <div>{{ product.price }}</div>
+    <a [routerLink]="['/details/', product.id]">More</a>
+</div>

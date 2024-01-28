@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { UserRoleComponent } from './user-role/user-role.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { DetailsProductComponent } from './details-product/details-product.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { UserRoleComponent } from './user-role/user-role.component';
     SignInComponent,
     AdminPanelComponent,
     UserRoleComponent,
+    HomePageComponent,
+    DetailsProductComponent,
   ],
   imports: [
     BrowserModule,

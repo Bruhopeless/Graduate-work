@@ -2,9 +2,22 @@
     border: 1px solid red;
 }
 
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.cont-form {
+    border: 1px solid #C4C4C4;
+    padding: 30px;
+}
+
 input {
     width: 443px;
     border: 1px solid #C4C4C4;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .error {
@@ -24,4 +37,18 @@ button {
     color: #828282;
     font-size: 14px;
     text-align: center;
+}
+
+.reg-btn {
+    width: 270px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.back-home {
+    text-decoration: none;
+    color: #828282;
+    font-size: 14px;
+    margin-left: 927px;
 }
