@@ -14,11 +14,18 @@ export class RoleServiceService {
     this.currentUser = user;
   }
 
+  userExist() {
+    if(this.currentUser != undefined) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   currentUserAdmin() {
     if (this.currentUser?.role === 'admin') {
       return true;
-    }
-    else {
+    } else {
       return false;
     }
   }

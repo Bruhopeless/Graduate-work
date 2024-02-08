@@ -44,5 +44,43 @@
       "count": 0,
       "id": 3
     }
+  ],
+  "cart": [
+    {
+      "name": "Nike Air Max ",
+      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
+      "userId": "",
+      "productId": "",
+      "productCount": "",
+      "orderStatus": "pre-order",
+      "id": 0
+    },
+    {
+      "name": "Nike Air Max ",
+      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
+      "userId": 1,
+      "productId": 2,
+      "productCount": 3,
+      "orderStatus": "pre-order",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Max ",
+      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
+      "userId": 1,
+      "productId": 2,
+      "productCount": 3,
+      "orderStatus": "pre-order",
+      "id": 2
+    },
+    {
+      "name": "Nike Air Max ",
+      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
+      "userId": 1,
+      "productId": 2,
+      "productCount": 3,
+      "orderStatus": "pre-order",
+      "id": 3
+    }
   ]
 }

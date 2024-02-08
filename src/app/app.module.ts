@@ -11,6 +11,7 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { UserRoleComponent } from './user-role/user-role.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DetailsProductComponent } from './details-product/details-product.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DetailsProductComponent } from './details-product/details-product.compo
     UserRoleComponent,
     HomePageComponent,
     DetailsProductComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,

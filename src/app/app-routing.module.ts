@@ -7,6 +7,8 @@ import { UserRoleComponent } from './user-role/user-role.component';
 import { AdminGuard } from './admin.guard';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DetailsProductComponent } from './details-product/details-product.component';
+import { CartComponent } from './cart/cart.component';
+import { LoginGuard } from './login.guard';
 
 const routes: Routes = [
   {
@@ -16,7 +18,8 @@ const routes: Routes = [
   },
   {
     path: 'home-page',
-    component: HomePageComponent
+    component: HomePageComponent,
+    canActivate: [LoginGuard]
   },
   {
     path: 'registration',
@@ -27,13 +30,19 @@ const routes: Routes = [
     component: SignInComponent
   },
   {
+    path: 'cart',
+    component: CartComponent,
+    canActivate: [LoginGuard]
+  },
+  {
     path: 'admin-panel',
     component: AdminPanelComponent,
     canActivate: [AdminGuard]
   },
   {
     path: 'products',
-    component: AdminPanelComponent
+    component: AdminPanelComponent,
+    canActivate: [LoginGuard]
   },
   {
     path: 'user-role',
@@ -41,7 +50,8 @@ const routes: Routes = [
   },
   {
     path: 'details/:id',
-    component: DetailsProductComponent
+    component: DetailsProductComponent,
+    canActivate: [LoginGuard]
   }
 ];
 
