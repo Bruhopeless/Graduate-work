@@ -1,6 +1,14 @@
-<div *ngFor="let order of orderDb.orders">
-    <div>{{ order.name }}</div>
-    <img src="{{ order.img }}" alt="">
-    <div>{{ order.productCount }}</div>
-    <div>{{ order.orderStatus }}</div>
+<div class="container">
+    <div>All orders: {{ this.orderDb.getCount() }}</div>
+    <div>Total price: {{ this.orderDb.getPrice() }}</div>
+        <div class="order">
+            <div *ngFor="let order of orderDb.orders">
+                    <div>{{ order.name }}</div>
+                    <img src="{{ order.img }}" alt="">
+                    <div>{{ order.productCount }}</div>
+                    <div>{{ order.orderStatus }}</div>
+                    <button (click)="this.deleteProduct(order.id)">Delete</button>
+            </div>
+        </div>
 </div>
+

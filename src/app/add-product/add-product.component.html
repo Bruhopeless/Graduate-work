@@ -1,0 +1,48 @@
+<div class="panel container">
+    <div>
+        <div>Name</div>
+        <input type="text" [(ngModel)]="nameValue">
+    </div>
+    <div>
+        <div>Image</div>
+        <input type="text" [(ngModel)]="imgValue">
+    </div>
+    <div>
+        <div>Description</div>
+        <textarea type="text" [(ngModel)]="descriptionValue"></textarea>
+    </div>
+    <div>
+        <div>Price</div>
+        <input type="number" [(ngModel)]="priceValue">
+    </div>
+    <div>
+        <div>Discount</div>
+        <input type="number" [(ngModel)]="discountValue">
+    </div>
+    <div>
+        <div>Count</div>
+        <input type="number" [(ngModel)]="countValue">
+    </div>
+    <div>
+        <div>About Product</div>
+        <textarea type="text" [(ngModel)]="aboutProductValue"></textarea>
+    </div>
+    <div>
+        <div>Details Product</div>
+        <textarea type="text" [(ngModel)]="detailsProductValue"></textarea>
+    </div>
+    <div>
+        <div>Shipping</div>
+        <textarea type="text" [(ngModel)]="shippingValue"></textarea>
+    </div>
+    <div>
+        <div *ngIf="id === '1'">
+            <button (click)="addProduct()">Add</button>
+            <button class="button" routerLink="/admin-panel">Back</button>
+        </div>
+        <div *ngIf="id != '1'">
+            <button (click)="saveProduct()">Save</button>
+            <button (click)="cancelProduct()" routerLink="/admin-panel">Back</button>
+        </div>
+    </div>
+</div>

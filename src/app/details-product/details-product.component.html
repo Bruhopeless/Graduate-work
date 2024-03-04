@@ -1,9 +1,43 @@
-<div *ngIf="product !=undefined">
-    <div>{{ product.name }}</div>
-    <img src="{{ product.img }}" alt="nike">
-    <div>{{ product.description }}</div>
-    <div>{{ product.price }}€</div>
-    <div>{{ product.discount }}%</div>
-    <div>{{ product.count}}</div>
-    <button (click)="this.addProductToCart()">Add to Cart</button>
+<div *ngIf="product !=undefined" class="container">
+    <div class="inCart" *ngIf="this.cartInProduct === true">
+        <div>Ваш товар в корзине</div>
+    </div>
+    <div class="product-content container">
+        <div>
+            <img src="{{ product.img }}" alt="nike">
+        </div>
+        <div class="product-description">
+            <div class="small-text">Home / Details of product</div>
+            <h2>{{ product.name }}</h2>
+            <div class="price">{{ product.price }}€</div>
+            <div class="discount">{{ product.discount }}%</div>
+            <input type="number" min="1" [(ngModel)]="countModel">
+            <br>
+            <div class="description">{{ product.description }}</div>
+            <div>
+                <button (click)="this.addProductToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-container">
+        <h3>Details</h3>
+        <hr>
+            <div class="details-content">
+                <div class="content">
+                    <div>
+                        <h5>About product</h5>
+                        <div>{{ product.aboutProduct }}</div>
+                    </div>
+                    <div>
+                        <h5>Details Product</h5>
+                        <div class="details-list">{{ product.detailsProduct }}</div>
+                    </div>
+                </div>
+                <div>
+                    <h5>Shipping</h5>
+                    <div>{{ product.shipping }}</div>
+                </div>
+            </div>
+    </div>
 </div>

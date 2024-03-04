@@ -13,7 +13,12 @@ export class CartComponent implements OnInit{
   orders: any[] = [];
 
   ngOnInit(): void {
-    this.orderDb.getAllOrders()
+    this.orderDb.getAllOrders();
+    this.orderDb.getPrice();
+  }
+
+  deleteProduct(id: number) {
+    this.orderDb.deleteProduct(id)
   }
 
 }

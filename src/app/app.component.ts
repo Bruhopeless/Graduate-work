@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserOrderService } from './service/user-order.service';
+import { RoleServiceService } from './service/role-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  constructor(public roleDb: RoleServiceService) { }
 }

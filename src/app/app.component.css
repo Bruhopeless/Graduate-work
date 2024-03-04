@@ -1,0 +1,48 @@
+img {
+    width: 60px;
+}
+
+.head-content {
+    background-color: black;
+    padding: 20px 0 20px 0;
+}
+
+.head-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.head-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.head-list a:hover {
+    text-decoration: underline;
+    text-decoration-color: #eb5757;
+    text-underline-position: under;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.material-symbols-outlined:hover {
+    background-color: rgb(57, 57, 57);
+}
+
+app-info-cart {
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    font-size: 12px;
+    border-radius: 50%;
+}
+

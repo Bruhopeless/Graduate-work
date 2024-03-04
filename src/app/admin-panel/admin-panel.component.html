@@ -1,50 +1,27 @@
-| <a class="button" routerLink="/user-role">User role</a>
+<button class="button" routerLink="/user-role">User role</button>
+<button class="button" [routerLink]="['/add-product/', 1]">Add Product</button>
 
-<div class="panel">
-    <div>
-        <div>Name</div>
-        <input type="text" [(ngModel)]="nameValue">
-    </div>
-    <div>
-        <div>Image</div>
-        <input type="text" [(ngModel)]="imgValue">
-    </div>
-    <div>
-        <div>Description</div>
-        <input type="text" [(ngModel)]="descriptionValue">
-    </div>
-    <div>
-        <div>Price</div>
-        <input type="text" [(ngModel)]="priceValue">
-    </div>
-    <div>
-        <div>Discount</div>
-        <input type="text" [(ngModel)]="discountValue">
-    </div>
-    <div>
-        <div>Count</div>
-        <input type="text" [(ngModel)]="countValue">
-    </div>
-    <div>
-        <div *ngIf="!editMode">
-            <button (click)="addProduct()">Add</button>
+<div class="product-panel container">
+        <div>
+            <ul class="panel-prod">
+                <li>Name</li>
+                <li>Image</li>
+                <li>Description</li>
+                <li>Price</li>
+                <li>Discount</li>
+                <li>Count</li>
+            </ul>
+            <div *ngFor="let product of products" class="panel-prod">
+                <div>{{ product.name }}</div>
+                <img src="{{ product.img }}" alt="nike">
+                <div>{{ product.description }}</div>
+                <div>{{ product.price }} €</div>
+                <div>{{ product.discount }} %</div>
+                <div>{{ product.count}}</div>
+                <div>
+                    <button [routerLink]="['/add-product/', product.id]">Edit</button>
+                    <button (click)="deleteProduct(product.id)">Delete</button>
+                </div>
+            </div>
         </div>
-        <div *ngIf="editMode">
-            <button (click)="saveProduct()">Save</button>
-            <button (click)="cancelProduct()">Cancel</button>
-        </div>
-    </div>
-</div>
-
-<div class="panel-prod">
-    <div *ngFor="let product of products">
-        <div>{{ product.name }}</div>
-        <img src="{{ product.img }}" alt="nike">
-        <div>{{ product.description }}</div>
-        <div>{{ product.price }}€</div>
-        <div>{{ product.discount }}%</div>
-        <div>{{ product.count}}</div>
-        <button (click)="editProduct(product)">Edit</button>
-        <button (click)="deleteProduct(product.id)">Delete</button>
-    </div>
 </div>

@@ -9,6 +9,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { DetailsProductComponent } from './details-product/details-product.component';
 import { CartComponent } from './cart/cart.component';
 import { LoginGuard } from './login.guard';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
   {
@@ -19,7 +20,7 @@ const routes: Routes = [
   {
     path: 'home-page',
     component: HomePageComponent,
-    canActivate: [LoginGuard]
+    // canActivate: [LoginGuard]
   },
   {
     path: 'registration',
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'user-role',
     component: UserRoleComponent
+  },
+  {
+    path: 'add-product/:id',
+    component: AddProductComponent
   },
   {
     path: 'details/:id',

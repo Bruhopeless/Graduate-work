@@ -12,6 +12,11 @@ import { UserRoleComponent } from './user-role/user-role.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DetailsProductComponent } from './details-product/details-product.component';
 import { CartComponent } from './cart/cart.component';
+import { InfoCartComponent } from './info-cart/info-cart.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
+import { PaginatorComponent } from './paginator/paginator.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +28,18 @@ import { CartComponent } from './cart/cart.component';
     HomePageComponent,
     DetailsProductComponent,
     CartComponent,
+    InfoCartComponent,
+    PaginatorComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatPaginatorModule,
+    MatTableModule
   ],
   providers: [
     provideClientHydration()

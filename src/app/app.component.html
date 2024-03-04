@@ -1,5 +1,29 @@
-<a class="button" routerLink="/admin-panel">Admin Panel</a> | 
-<a class="button" routerLink="/sign-in">Sign in</a> | 
-<a class="button" routerLink="/cart">Cart</a> | 
-<a class="button" routerLink="/home-page">Home</a>
+<div class="header">
+    <div class="head-content">
+        <div class="head-list">
+            <img src="/assets/images/Logo.png" alt="Logo">
+            <a *ngIf="this.roleDb.currentUserAdmin()" class="button" routerLink="/admin-panel">Admin Panel</a>  
+            <a class="button" routerLink="/home-page">Home</a>  
+            <a class="button" routerLink="/sign-in">Sign in</a> 
+            <a class="button" routerLink="/registration">Registration</a> 
+            <div class="cart-icon">
+                <a class="button" routerLink="/cart">
+                    <span class="material-symbols-outlined">
+                        shopping_bag
+                    </span>
+                    <app-info-cart *ngIf="this.roleDb.userExist()"></app-info-cart>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <router-outlet></router-outlet>
+
+<div class="footer">
+    <div class="foot-content">
+        <div>
+            
+        </div>
+    </div>
+</div>

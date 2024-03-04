@@ -6,7 +6,7 @@
       "email": "teamwork42@gmail.com",
       "pass": "HFhhu1hjf",
       "role": "user",
-      "id": 0
+      "id": "0"
     },
     {
       "firstName": "Valeriia",
@@ -14,73 +14,257 @@
       "email": "lera22ok@ukr.net",
       "pass": "hHGH131Hfs",
       "role": "admin",
-      "id": 1
+      "id": "1"
     },
     {
       "firstName": "Alexsandr",
       "lastName": "Petrov",
-      "email": "teamgidhub@gmail.com",
-      "pass": "hghHfhw1fd",
+      "email": "123@gmail.com",
+      "pass": "123",
       "role": "admin",
-      "id": 2
+      "id": "2"
+    },
+    {
+      "id": "75c8",
+      "firstName": "Valeriia",
+      "lastName": "Kostenko",
+      "email": "123@gmail.com",
+      "pass": "GGfgw33124",
+      "role": "user"
     }
   ],
   "products": [
     {
-      "name": "Nike Air Max ",
+      "name": "Nike Air Max 90 GORE-TEX",
       "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
-      "description": "Men's Weatherised Road Runnind Shoes",
-      "price": "79.70",
+      "description": "Lace up and feel the legacy. These AM90s will keep up with you on all your adventures thanks to a mix of GORE-TEX and mesh materials. Worn by presidents, revolutionized through collabs and celebrated through rare colorways, the Waffle sole, striking visuals and Nike Air cushioning keep it alive and well.",
+      "aboutProduct": "A springy ride for any run, the Peg’s familiar, just-for-you feel returns to help you accomplish your goals. This version has the same responsiveness and neutral support you love, but with improved comfort in those sensitive areas of your foot, like the arch and toes. Whether you’re logging long marathon miles, squeezing in a speed session before the sun goes down or hopping into a spontaneous group jaunt, it’s still the established road runner you can put your faith in, day after day, run after run.",
+      "detailsProduct": "Lace up and feel the legacy. These AM90s will keep up with you on all your adventures thanks to a mix of GORE-TEX and mesh materials. Worn by presidents, revolutionized through collabs and celebrated through rare colorways, the Waffle sole, striking visuals and Nike Air cushioning keep it alive and well.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 79.7,
       "discount": 50,
-      "count": 3,
-      "id": 2
+      "count": 1,
+      "id": "2",
+      "type": "shoes"
     },
     {
-      "name": "sfsafasfd",
-      "img": "",
-      "description": "sfsafaasfd",
-      "price": "2",
-      "discount": "5",
+      "id": "74fc",
+      "name": "Nike Air Max 1",
+      "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2d2d6b61-3c5c-4b59-92ce-b2bf2d5a03dc/air-max-1-mens-shoes-2C5sX2.png",
+      "description": "Sure, Air Max 1 started as a running shoe, but you can’t keep innovation contained. Adopted by hip-hop culture, this runner with a controversial exposed Air unit could be found anywhere from the heart of Brooklyn to the streets of London. Its cutting-edge design and striking colorways, to this day, are celebrated year after year.",
+      "aboutProduct": "Meet the leader of the pack. Walking on clouds above the noise, the Air Max 1 blends timeless design with cushioned comfort. Sporting a fast-paced look, wavy mudguard and Nike Air, this classic icon hit the scene in ‘87 and continues to be the soul of the franchise today.",
+      "detailsProduct": "Plush and comfortable, \n Max Air cushioning has just the right amount of support. \n Waffle outsole with flex grooves provides traction that's flexible and durable. \n Shown: Football Grey/Thunder Blue/Light Pumice/Lilac \n Bloom Style: FD9082-001",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 128.85,
+      "discount": 0,
       "count": 0,
-      "id": 3
+      "type": "shoes"
+    },
+    {
+      "id": "0b06",
+      "name": "Nike Dunk Low Retro Premium",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c9313239-c0bd-40d6-92a9-a8dd7d8a3280/dunk-low-retro-premium-mens-shoes-nbS9K6.png",
+      "description": "The '80s b-ball icon returns with crisp leather and throwback hoops flair. Channeling vintage style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort.",
+      "aboutProduct": "Born from a series of mash-ups, hacks and tight deadlines, the Nike Dunk landed on college basketball courts during the '85–'86 season. While the original College Colors designs helped you stay true to your school, the Dunk didn't prove to be popular. But it was this humble sneaker's lack of popularity—and flat, grippy soles—that helped it jump the rails to captivate skateboarders. Decades later, this everyday favorite continues to be snatched up in countless colorways, proving its influence is undeniable.",
+      "detailsProduct": "Leather upper softens and gains vintage character with wear. Foam midsole offers lightweight, responsive cushioning. Rubber outsole with classic hoops pivot circle adds durability and traction. Shown: Dark Smoke Grey/White/Barely Green Style: FZ1670-001",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 115.02,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "id": "3913",
+      "name": "Nike Air Max 270",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/gorfwjchoasrrzr1fggt/air-max-270-mens-shoes-KkLcGR.png",
+      "description": "Nike's first lifestyle Air Max brings you style, comfort and big attitude in the Nike Air Max 270. The design draws inspiration from Air Max icons, showcasing Nike's greatest innovation with its large window and fresh array of colors.",
+      "aboutProduct": "Revolutionary Air technology first made its way into Nike footwear in 1978. In 1987, the Air Max 1 debuted with visible Air technology in its heel, allowing fans more than just the feel of Air cushioning—suddenly they could see it. Since then, next-generation Air Max shoes have become a hit with athletes and collectors by offering striking color combinations and reliable, lightweight cushioning.",
+      "detailsProduct": "The Max Air 270 unit delivers unrivaled, all-day comfort. The sleek, running-inspired design roots you to everything Nike. Woven and synthetic fabric on the upper provides a lightweight fit and airy feel. Foam midsole feels soft and comfortable. Stretchy inner sleeve and booty-like construction creates a personalized fit. Rubber on the outsole adds traction and durability.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 147.24,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "name": "Nike Air Max 90",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/m55is6buar3k4isirw0k/air-max-90-mens-shoes-6n3vKB.png",
+      "description": "Nothing as fly, nothing as comfortable, nothing as proven. The Nike Air Max 90 stays true to its OG running roots with the iconic Waffle sole, stitched overlays and classic TPU details. Classic colors celebrate your fresh look while Max Air cushioning adds comfort to the journey.",
+      "aboutProduct": "Revolutionary Air technology first made its way into Nike footwear in 1978. In 1987, the Air Max 1 debuted with visible Air technology in its heel, allowing fans more than just the feel of Air cushioning—suddenly they could see it. Since then, next-generation Air Max shoes have become a hit with athletes and collectors by offering striking color combinations and reliable, lightweight cushioning.",
+      "detailsProduct": "Nothing as fly, nothing as comfortable, nothing as proven. The Nike Air Max 90 stays true to its OG running roots with the iconic Waffle sole, stitched overlays and classic TPU details. Classic colors celebrate your fresh look while Max Air cushioning adds comfort to the journey.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 119.74,
+      "discount": 0,
+      "count": 0,
+      "id": "994d",
+      "type": "shoes"
+    },
+    {
+      "id": "9ee7",
+      "name": "Nike Zoom Vomero 5",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/66092c08-d6b4-4c69-9a5a-1d88a18e8566/zoom-vomero-5-mens-shoes-MgsTqZ.png",
+      "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and easy styling. The richly layered design includes textiles, leather and plastic accents that come together to make one of the coolest sneakers of the season.",
+      "aboutProduct": "Snappy and responsive, Zoom Air cushioning helps provide a quick-off-the-ground sensation. It uses stretched tensile fibers knit inside a pressurized Nike Air unit, giving athletes everywhere a chance to find their fast.",
+      "detailsProduct": "Synthetic leather on the upper add durability. Mesh panels and ventilation ports on the heel keep it light and breathable. Snappy and responsive, Zoom Air cushioning helps provide a quick-off-the-ground sensation. Plastic caging on the side adds support. Rubber outsole gives you excellent traction.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 147.46,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "id": "c674",
+      "name": "Ja 1 \"Bite\"",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6c221f0e-971b-4ecc-a982-1ca2ab371ed3/ja-1-bite-basketball-shoes-bCx2W3.png",
+      "description": "Whether he’s flying down the lane or breaking his defender down with something saucy off the bounce, Ja touts a relentless will to win. This special design pays homage to his dogged drive with canine-inspired graphics. With Air Zoom cushioning, it supports bunny hops and hyper speed without sacrificing comfort, so that you can control your own destiny on the court, Ja-style.",
+      "aboutProduct": "A containment system and forefoot strap help keep your ankle and heel stable, so that you’re in control and supported whether you’re changing directions at high speeds, springing toward the rim or staying in front of shifty ball-handlers on defense.",
+      "detailsProduct": "Lightweight, breathable material on the upper helps keep your feet cool. Raised foam collar adds ankle support. Shown: Red Stardust/University Red/Sail/Black Style: FV1286-600",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 119.76,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "id": "3c24",
+      "name": "Nike Dunk High Retro",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/322492a4-fd97-499a-b6fb-ebb25be7bbb2/dunk-high-retro-mens-shoes-dTVTCk.png",
+      "description": "Recognizing the Dunk's roots as the top-ranking college team sneaker, the \"Be True To Your School\" pack looks to the original ad campaign for inspiration. Colors represent top-flight universities, while design details serve throwback hoops flair. And that crisp leather has the perfect amount of sheen to make 'em a hands-down win. So lace up and show off that varsity spirit with color combos that nod to your fave team. Ya game?",
+      "aboutProduct": "From backboards to skateboards, the influence of the Nike Dunk is undeniable. Although introduced as a basketball shoe in 1985, its flat and grippy soles were perfect for a neglected sports community—skaters. Uncovering a subculture craving creativity as much as function, Dunk released decades of countless colorways that continue to capture the soul of skaters from coast to coast.",
+      "detailsProduct": "Colors let you rep your favorite collegiate teams. Crisp leather upper ages to soft perfection and features a durable construction reminiscent of '80s b-ball. Foam midsole offers lightweight, responsive cushioning. Padded, high top collar feels great and adds support. Rubber outsole with hoops pivot circle adds durable traction and heritage style. Shown: White/White/Chlorophyll Style: DV0829-101",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 119.76,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "name": "Nike Air Max Ishod",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5d313213-ad9e-42f4-8fb9-464b9cd8b2f7/air-max-ishod-mens-shoes-DwRtpQ.png",
+      "description": "Infused with elements taken from iconic '90s hoops shoes, the Air Max Ishod is built with all the durability you need to skate hard. This creative twist on the original Ishod design features updated mesh, exposed Nike Air (with Max Air technology) and a cupsole that breaks in easily. Now, step in and skate like you mean it.",
+      "aboutProduct": "Visual stunner. Window to the sole. Legendary designer Tinker Hatfield took cues from inside-out Parisian architecture to reestablish Air technology as a leader in cushioning. Plush and comfortable, Max Air has just the right amount of support.",
+      "detailsProduct": "Infused with elements taken from iconic '90s hoops shoes, the Air Max Ishod is built with all the durability you need to skate hard. This creative twist on the original Ishod design features updated mesh, exposed Nike Air (with Max Air technology) and a cupsole that breaks in easily. Now, step in and skate like you mean it.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 101.32,
+      "discount": 0,
+      "count": 0,
+      "id": "697c",
+      "type": "shoes"
+    },
+    {
+      "id": "8cf5",
+      "name": "Nike Dunk Low Retro Premium",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/51ab7b1c-b965-4519-ab2d-e95dccb9a16c/dunk-low-retro-premium-mens-shoes-RZwzsC.png",
+      "description": "Created for the hardwood but taken to the streets, the '80s b-ball icon returns with classic details and throwback hoops flair. Channeling vintage style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort.",
+      "aboutProduct": "From backboards to skateboards, the influence of the Nike Dunk is undeniable. Although introduced as a basketball shoe in 1985, its flat and grippy soles were perfect for a neglected sports community—skaters. Uncovering a subculture craving creativity as much as function, Dunk released decades of countless colorways that continue to capture the soul of skaters from coast to coast.",
+      "detailsProduct": "Upper ages to soft perfection and features a durable construction reminiscent of '80s b-ball.\nFoam midsole offers lightweight, responsive cushioning.\nRubber outsole with classic hoops pivot circle adds durability, traction, and heritage style.\nShown: Red Stardust/Sanddrift/Summit White\nStyle: FB8895-601",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 115.17,
+      "discount": 0,
+      "count": 0,
+      "type": "shoes"
+    },
+    {
+      "id": "4fc7",
+      "name": "Nike Sportswear Phoenix Fleece",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/81bf197f-4a45-45b0-9e9c-3544b879498a/sportswear-phoenix-fleece-womens-oversized-pullover-hoodie-bs372Q.png",
+      "description": "The Nike Pro Leggings are made with sweat-wicking fabric and mesh across the calves to keep you cool and dry. Soft, stretchy fabric moves with you as you sprint, lunge and stretch. This product is made with at least 50% recycled polyester fibers.",
+      "aboutProduct": "Nike Dri-FIT technology helps you stay dry, comfortable and focused.\nA wide, smooth mid-rise waistband feels supportive around your core.\nVentilated mesh panels along the back of the lower legs create airflow for breathability.",
+      "detailsProduct": "Tight fit for a body-hugging feel\nMid rise\nBody: 83% polyester/17% spandex. Mesh: 81% polyester/19% spandex.\nMachine wash\nImported\nShown: Hyper Royal/White\nStyle: CZ9779-407",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 69.09,
+      "discount": 0,
+      "count": 0,
+      "type": "outerwear"
+    },
+    {
+      "id": "7054",
+      "name": "Nike Sportswear Phoenix Plush",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8657b046-3a6f-4b72-bb06-9abff5561084/sportswear-phoenix-plush-womens-high-waisted-wide-leg-cozy-fleece-pants-33jK1s.png",
+      "description": "Grounded in style, comfort and versatility, meet our take on luxury loungewear. Textured fleece makes these high-waisted pants cozy enough to wear around the house yet elevated enough to wear out in the city. Meanwhile, extra room throughout the legs lets you relax to the max.",
+      "aboutProduct": "Structured yet relaxed, our textured midweight fleece gives you the best of both worlds and feels extra cozy.\nTall, ribbed waistband with drawcord gives you a comfortable fit.",
+      "detailsProduct": "Side pockets\nSplit hems\n73% Polyester/27% Rayon\nMachine wash\nImported\nShown: Black/Sail\nStyle: FN3622-010",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 78.31,
+      "discount": 0,
+      "count": 0,
+      "type": "trousers"
+    },
+    {
+      "id": "cb4e",
+      "name": "Nike Sportswear Essential",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bf90452b-e934-4ee4-8ba0-c849305ff299/sportswear-essential-womens-trench-coat-PHl6q2.png",
+      "description": "With a high-low hemline, this oversized trench coat gives you a fresh take on a classic. The lightweight material helps keep you comfortably covered for days when the weather can't seem to make up its mind. Plus, a packable hood and bungees at the waist give you plenty of styling options.",
+      "aboutProduct": "Full-length zipper helps you block out chilly weather.\nPockets provide quick storage for keys, phone and cold hands.",
+      "detailsProduct": "100% polyester\nAppliqué Swoosh logo on back\nThis product provides UVA and UVB protection from the sun only in the areas covered by the garment. To protect exposed areas, the use of good quality sunscreen is recommended.\nMachine wash\nImported\nShown: Sanddrift/Metallic Copper\nStyle: FN2843-126",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 142.8,
+      "discount": 0,
+      "count": 0,
+      "type": "outerwear"
+    },
+    {
+      "name": "Nike FutureMove",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c5522e5-c27c-403d-87b2-444136b7acb8/futuremove-womens-dri-fit-high-waisted-pants-with-pockets-FWJ1Sd.png",
+      "description": "Feel fierce in whatever you do in these snug flared pants. Squat-proof—even during your toughest routines—their sleek, midweight InfinaLock fabric feels compressive and supportive in all the right places. With sweat-wicking tech and a zippered flare-leg design, you can feel just as comfortable powering through a workout as you are busting out some moves on the dance floor.",
+      "aboutProduct": "Nike Dri-FIT technology moves sweat away from your skin for quicker evaporation, helping you stay dry and comfortable.\nDrop-in pockets on thighs help you keep your essentials close.\nZippered split hems let you personalize your fit and style.",
+      "detailsProduct": "Feel fierce in whatever you do in these snug flared pants. Squat-proof—even during your toughest routines—their sleek, midweight InfinaLock fabric feels compressive and supportive in all the right places. With sweat-wicking tech and a zippered flare-leg design, you can feel just as comfortable powering through a workout as you are busting out some moves on the dance floor.",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 138.29,
+      "discount": 0,
+      "count": 0,
+      "id": "fe7b",
+      "type": "trousers"
+    },
+    {
+      "id": "a7dd",
+      "name": "Nike Sportswear Essential",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/faa11e6a-9968-4fd0-a613-7fab1d671b4a/sportswear-essential-womens-t-shirt-rMZrZp.png",
+      "description": "Rep the city you love in this simple cotton tee. Made with slightly dropped shoulders, the loose fit brings a relaxed, casual feel while a subtle washed finish adds vintage vibes to your look.",
+      "aboutProduct": "Heavyweight cotton fabric has a stiff drape and structured feel.\nA roomy fit with slightly dropped shoulders provides a relaxed look without feeling too big.",
+      "detailsProduct": "100% cotton\nMachine wash\nPrinted graphics\nImported\nShown: Light Orewood Brown\nStyle: HF4509-104",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 36.89,
+      "discount": 0,
+      "count": 0,
+      "type": "outerwear"
+    },
+    {
+      "id": "6c21",
+      "name": "Nike Everyday Plus Cushion",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bd7608c2-da30-4abf-afbf-7b3ad1245bf5/everyday-plus-cushion-training-no-show-socks-3-pairs-N5qMRp.png",
+      "description": "The Nike Everyday Plus Cushioned Socks bring comfort to your workout with extra cushioning under the heel and forefoot and a snug, supportive arch band. Sweat-wicking power and breathability up top help keep your feet dry and cool to help push you through that extra set.",
+      "aboutProduct": "Cushioning under the forefoot and heel helps soften the impact of your workout.\nDri-FIT technology helps your feet stay dry and comfortable.\nBand around the arch feels snug and supportive.\nBreathable knit pattern on top adds ventilation.\nReinforced heel and toe are made to last.",
+      "detailsProduct": "Fabric: 65-72% cotton/26-33% polyester/2% spandex\nMachine wash\nImported\nNote: Material percentages may vary depending on color. Check label for actual content.\nShown: Multi-Color\nStyle: SX6889-966",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 20.29,
+      "discount": 0,
+      "count": 0,
+      "type": "socks"
+    },
+    {
+      "id": "ade2",
+      "name": "Nike Sportswear Phoenix Fleece",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8124ee8-b29c-49a8-8ad0-9a7fb0f45cf2/sportswear-phoenix-fleece-womens-oversized-crew-neck-sweatshirt-KQxbFk.png",
+      "description": "Grounded in style, comfort and versatility, meet our take on luxury loungewear. This classic sweatshirt helps you stay cozy all day long, thanks to its midweight fleece that feels soft yet structured. Plus, the taller ribbing and oversized fit give you a trend-right look.",
+      "aboutProduct": "Our midweight brushed fleece feels extra soft on the inside and smooth on the outside, helping you stay cozy while keeping its structured shape.\nDropped shoulder seams and oversized fit provide a casual, relaxed look.",
+      "detailsProduct": "Elongated ribbing\nEmbroidered Swoosh logo\nBody: 80% cotton/20% polyester. Rib: 97% cotton/3% spandex.\nMachine wash\nImported\nShown: Light Armory Blue/Sail\nStyle: DQ5733-441",
+      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
+      "price": 64.54,
+      "discount": 0,
+      "count": 0,
+      "type": "outerwear"
     }
   ],
   "cart": [
     {
-      "name": "Nike Air Max ",
+      "id": "a635",
+      "name": "Nike Air Max",
       "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
-      "userId": "",
-      "productId": "",
-      "productCount": "",
+      "productId": "2",
+      "productCount": 1,
       "orderStatus": "pre-order",
-      "id": 0
-    },
-    {
-      "name": "Nike Air Max ",
-      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
-      "userId": 1,
-      "productId": 2,
-      "productCount": 3,
-      "orderStatus": "pre-order",
-      "id": 1
-    },
-    {
-      "name": "Nike Air Max ",
-      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
-      "userId": 1,
-      "productId": 2,
-      "productCount": 3,
-      "orderStatus": "pre-order",
-      "id": 2
-    },
-    {
-      "name": "Nike Air Max ",
-      "img": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1db44a18-c0bf-4bf8-8181-c7e179c8f31d/chaussure-air-max-tw-pour-VMBzzV.png",
-      "userId": 1,
-      "productId": 2,
-      "productCount": 3,
-      "orderStatus": "pre-order",
-      "id": 3
+      "price": 79.7
     }
   ]
 }

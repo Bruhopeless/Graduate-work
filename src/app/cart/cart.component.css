@@ -1,3 +1,28 @@
+.order {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 img {
     width: 100px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    width: 100px;
+}
+
+
+@media (min-width: 600px) and (max-width: 839.98px) {
+    img {
+        width: 200px;
+    }
+    .order {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

@@ -1,8 +1,27 @@
-<h2>Home page</h2>
+<div class="container">
 
-<div *ngFor="let product of products">
-    <div>{{ product.name }}</div>
-    <img src="{{ product.img }}" alt="nike">
-    <div>{{ product.price }}</div>
-    <a [routerLink]="['/details/', product.id]">More</a>
+    <div class="search-string">
+        <input type="text" placeholder="Nike Air Max" (change)="searchProduct($event)">
+        <button class="change-sorting" (click)="changeSorting()">{{ direction }}</button>
+        <select class="selec-prod" #selectElem (change)="setNewType(selectElem.value)">
+            <option value="all">All</option>
+            <option value="shoes">Shoes</option>
+            <option value="outerwear">Outerwear</option>
+            <option value="socks">Socks</option>
+            <option value="trousers">Trousers</option>
+        </select>
+    </div>
+    
+    <div class="main-content">
+        <div *ngFor="let product of currentPageData" class="product">
+            <img src="{{ product.img }}" alt="nike">
+            <h5>{{ product.name }}</h5>
+            <div>{{ product.price }} €</div>
+            <button [routerLink]="['/details/', product.id]">More</button>
+        </div>
+    </div>
+
+    <app-paginator [totalItems]="filterProducts.length" [pageSize]="10" (pageChanged)="onPageChanged($event)"></app-paginator>
 </div>
+
+

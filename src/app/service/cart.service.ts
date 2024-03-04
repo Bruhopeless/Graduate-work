@@ -41,4 +41,5 @@ export class CartModel {
   productCount: number;
   orderStatus: string;
   id: number;
+  price: number;
 }

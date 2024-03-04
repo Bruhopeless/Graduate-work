@@ -12,15 +12,20 @@
         
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password"
-                       class="form-control"
-                       formControlName="pass">
+                <div class="form-inp">
+                    <input type="password"
+                        class="form-control"
+                        formControlName="pass">
+                </div>
             </div>
-            <button class="btn"
-                    type="submit"
-                    [disabled]="form.invalid"
-                    (click)="userVerification()">Sign in</button>
+            <div class="all-btn">
+                <button class="btn-sign"
+                type="submit"
+                [disabled]="form.invalid"
+                (click)="userVerification()"
+                routerLink="/home-page">Sign in</button>
+                <button class="reg-btn" routerLink="/registration">Registration</button>
+            </div>
         </form>
-        <a class="button" routerLink="/registration">Registration</a>
 </div>
 

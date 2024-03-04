@@ -14,8 +14,10 @@ export class DetailsProductComponent implements OnInit {
     route.params.subscribe(params=>this.id=params["id"]);
   }
 
-  id = 0;
+  id = '';
   product: ProductModel;
+  countModel = 1;
+  cartInProduct = false;
 
   ngOnInit(): void {
     this.getProduct()
@@ -27,6 +29,11 @@ export class DetailsProductComponent implements OnInit {
   }
 
   addProductToCart() {
-    this.orderDb.addProductToCart(this.product);
+    this.cartInProduct = true;
+    setTimeout(() => {
+      this.cartInProduct = false;
+    }, 1500);
+    this.orderDb.addProductToCart(this.product, this.countModel);
   }
+
 }

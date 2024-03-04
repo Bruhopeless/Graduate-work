@@ -15,10 +15,12 @@ export class AdminPanelComponent implements OnInit {
   nameValue = '';
   imgValue = '';
   descriptionValue = '';
+  aboutProductValue = '';
+  detailsProductValue = '';
+  shippingValue = '';
   priceValue = 0;
   discountValue = 0;
   countValue = 0;  
-  editMode = false;
   id = -1;
 
   getAllProducts() {
@@ -28,70 +30,6 @@ export class AdminPanelComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAllProducts();
-  }
-
-  addProduct() {
-    this.productDb.addProduct({
-      name: this.nameValue,
-      img: this.imgValue,
-      description: this.descriptionValue,
-      price: this.priceValue,
-      discount: this.discountValue,
-      count: this.countValue,
-      id: 0
-    })
-    .subscribe ((data) => this.products.push(data));
-    this.nameValue = '';
-    this.descriptionValue = '';
-    this.imgValue = '';
-    this.priceValue = 0;
-    this.discountValue = 0;
-    this.countValue = 0;
-  }
-
-  editProduct (product: ProductModel) {
-    this.editMode = true;
-
-    this.nameValue = product.name;
-    this.imgValue = product.img;
-    this.descriptionValue = product.description;
-    this.priceValue = product.price;
-    this.discountValue = product.discount;
-    this.countValue = product.count;
-    this.id = product.id;
-  }
-
-  saveProduct() {
-    this.productDb.editProduct({
-      name: this.nameValue,
-      img: this.imgValue,
-      description: this.descriptionValue,
-      price: this.priceValue,
-      discount: this.discountValue,
-      count: this.countValue,
-      id: this.id
-    })
-    .subscribe((data) => {
-      this.getAllProducts()
-    });
-
-    this.nameValue = '';
-    this.descriptionValue = '';
-    this.imgValue = '';
-    this.priceValue = 0;
-    this.discountValue = 0;
-    this.countValue = 0;
-    this.editMode = false;
-  }
-
-  cancelProduct() {
-    this.nameValue = '';
-    this.descriptionValue = '';
-    this.imgValue = '';
-    this.priceValue = 0;
-    this.discountValue = 0;
-    this.countValue = 0;
-    this.editMode = false;
   }
 
   deleteProduct(id: number) {

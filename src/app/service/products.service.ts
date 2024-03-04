@@ -28,7 +28,7 @@ export class ProductsService {
     return this.http.delete<any[]>(`${this.urlDb}/${id}`);
   }
 
-  getProduct(id: number): Observable<ProductModel> {
+  getProduct(id: string): Observable<ProductModel> {
     return this.http.get<ProductModel>(`${this.urlDb}/${id}`);
   }
 }
@@ -37,8 +37,11 @@ export class ProductModel {
   name: string;
   img: string;
   description: string;
+  aboutProduct: string;
+  detailsProduct: string;
+  shipping: string;
   price: number;
   discount: number;
   count: number;
-  id: number;
+  id: any;
 }

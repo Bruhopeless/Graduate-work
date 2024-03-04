@@ -9,8 +9,9 @@ import { ProductModel } from './products.service';
 export class UserOrderService {
 
   constructor(private httpCart: CartService, private httpRole: RoleServiceService) {
-    this.userId = this.httpRole.currentUser.id;
-    this.getAllOrders();
+      this.userId = this.httpRole.currentUser.id;
+      this.getAllOrders();
+    
    }
 
   orders: CartModel[];
@@ -23,19 +24,19 @@ export class UserOrderService {
                 });
   }
 
-  addProductToCart(order: ProductModel) {
+  addProductToCart(order: ProductModel, countModel: number) {
     let cartModel = {
       name: order.name,
       img: order.img,
       userId: this.userId,
       productId: order.id,
-      productCount: order.count,
+      productCount: countModel,
       orderStatus: 'pre-order',
-      id: 0
-    }
+      price: order.price * countModel
+    } as any
     this.httpCart.addOrder(cartModel)
-                 .subscribe((data) => {
-                  cartModel.id = data as any;
+                 .subscribe((data: any) => {
+                  cartModel.id = data.id;
                   this.orders.push(cartModel);
                 });
   }
@@ -48,4 +49,29 @@ export class UserOrderService {
                   });
   }
 
+  getCount() {
+    let count = 0;
+    if(this.orders) {
+      for (let i = 0; i < this.orders.length; i++) {
+        count = this.orders[i].productCount + count;
+      }
+    }
+    else {
+      console.log('error');
+    }
+    return count;
+  }
+
+  getPrice() {
+    let count = 0;
+    if(this.orders) {
+      for (let i = 0; i < this.orders.length; i++) {
+        count = this.orders[i].price + count;
+      }
+    }
+    else {
+      console.log('error');
+    }
+    return count;
+  }
 }
