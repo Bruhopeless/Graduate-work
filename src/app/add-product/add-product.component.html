@@ -36,12 +36,16 @@
         <textarea type="text" [(ngModel)]="shippingValue"></textarea>
     </div>
     <div>
+        <div>Type of product</div>
+        <input type="text" [(ngModel)]="typeValue">
+    </div>
+    <div>
         <div *ngIf="id === '1'">
             <button (click)="addProduct()">Add</button>
             <button class="button" routerLink="/admin-panel">Back</button>
         </div>
         <div *ngIf="id != '1'">
-            <button (click)="saveProduct()">Save</button>
+            <button (click)="saveProduct()" routerLink="/admin-panel">Save</button>
             <button (click)="cancelProduct()" routerLink="/admin-panel">Back</button>
         </div>
     </div>

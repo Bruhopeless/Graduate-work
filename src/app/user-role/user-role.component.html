@@ -1,6 +1,6 @@
 <button class="btn-prod" routerLink="/products">Products</button>
 <div class="panel-users container">
-    <div *ngFor="let user of users">
+    <div *ngFor="let user of users" class="users">
         <div>{{ user.firstName }} {{ user.lastName }}</div>
         <div>{{ user.email }}</div>
         <div>{{ user.role }}</div>

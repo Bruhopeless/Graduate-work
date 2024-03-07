@@ -11,6 +11,8 @@
 
 h1 {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .error {
@@ -65,14 +67,15 @@ input {
 .btn-sign {
     text-decoration: none;
     margin-left: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 132, 132);
     padding: 13px 50px 13px 50px;
     cursor: pointer;
     margin-left: 100px;
+    border: 1px solid rgb(181, 181, 181);
 }
 .btn-sign:hover {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(226, 226, 226);
 }
 
 

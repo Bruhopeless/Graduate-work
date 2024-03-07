@@ -25,7 +25,9 @@ export class AddProductComponent {
   shippingValue = '';
   priceValue = 0;
   discountValue = 0;
-  countValue = 0;  
+  countValue = 0; 
+  typeValue = '';
+   
 
   getProduct() {
     this.productDb.getProduct(this.id)
@@ -50,7 +52,8 @@ export class AddProductComponent {
       price: this.priceValue,
       discount: this.discountValue,
       count: this.countValue,
-      id: this.id
+      id: this.id,
+      type: this.typeValue,
     })
     .subscribe((data) => {
       this.getProduct();
@@ -65,6 +68,7 @@ export class AddProductComponent {
     this.priceValue = 0;
     this.discountValue = 0;
     this.countValue = 0;
+    this.typeValue = '';
   }
 
   cancelProduct() {
@@ -77,6 +81,7 @@ export class AddProductComponent {
     this.priceValue = 0;
     this.discountValue = 0;
     this.countValue = 0;
+    this.typeValue = '';
   }
 
   editProduct (product: ProductModel) {
@@ -90,6 +95,7 @@ export class AddProductComponent {
     this.discountValue = product.discount;
     this.countValue = product.count;
     this.id = product.id;
+    this.typeValue = product.type;
   }
 
   addProduct() {
@@ -102,7 +108,8 @@ export class AddProductComponent {
       shipping: this.shippingValue,
       price: this.priceValue,
       discount: this.discountValue,
-      count: this.countValue
+      count: this.countValue,
+      type: this.typeValue, 
     } as any)
     .subscribe ((data) => this.products.push(data));
     
@@ -116,5 +123,6 @@ export class AddProductComponent {
     this.priceValue = 0;
     this.discountValue = 0;
     this.countValue = 0;
+    this.typeValue = '';
   }
 }

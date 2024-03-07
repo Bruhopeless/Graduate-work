@@ -32,7 +32,7 @@ export class UserOrderService {
       productId: order.id,
       productCount: countModel,
       orderStatus: 'pre-order',
-      price: order.price * countModel
+      price: parseFloat((order.price * countModel).toFixed(2))
     } as any
     this.httpCart.addOrder(cartModel)
                  .subscribe((data: any) => {

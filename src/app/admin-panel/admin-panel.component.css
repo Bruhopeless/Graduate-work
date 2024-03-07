@@ -7,12 +7,23 @@
 }
 
 img {
-    width: 150px;
+    width: 100px;
     padding: 10px;
 }
 
 input {
     width: 500px;
+}
+
+.button-add {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -27,14 +38,43 @@ button {
 
 .panel-prod {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) repeat(3, 100px) 1fr;
+    grid-template-columns: 1fr 100px 1fr repeat(3, 100px) 1fr;
     list-style-type: none;
     border: 1px solid;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
 }
 
-textarea {
-    width: 500px;
-    height: 100px;
+.name {
+    text-align: left;
+    margin-left: 15px;
 }
 
+.description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+@media (min-width: 600px) and (max-width: 839.98px) {
+    .panel-prod {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 90px;
+        margin-right: 5px;
+    }
+
+    .description {
+        font-size: 13px;
+    } 
+}

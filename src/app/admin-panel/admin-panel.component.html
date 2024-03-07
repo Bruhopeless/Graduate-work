@@ -1,7 +1,7 @@
 <button class="button" routerLink="/user-role">User role</button>
-<button class="button" [routerLink]="['/add-product/', 1]">Add Product</button>
+<button class="button-add" [routerLink]="['/add-product/', 1]">Add Product</button>
 
-<div class="product-panel container">
+<div class="product-panel">
         <div>
             <ul class="panel-prod">
                 <li>Name</li>
@@ -12,9 +12,9 @@
                 <li>Count</li>
             </ul>
             <div *ngFor="let product of products" class="panel-prod">
-                <div>{{ product.name }}</div>
+                <div class="name">{{ product.name }}</div>
                 <img src="{{ product.img }}" alt="nike">
-                <div>{{ product.description }}</div>
+                <div class="description">{{ product.description }}</div>
                 <div>{{ product.price }} €</div>
                 <div>{{ product.discount }} %</div>
                 <div>{{ product.count}}</div>

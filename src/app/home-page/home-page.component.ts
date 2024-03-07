@@ -61,6 +61,10 @@ export class HomePageComponent implements OnInit {
       this.direction = 'low'
     }
     this.sortingPrice()
+    this.onPageChanged({
+      pageIndex: 0,
+      pageSize: 10
+    })
   }
 
   setNewType(selectElem: string) {

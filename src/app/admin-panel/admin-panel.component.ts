@@ -12,17 +12,6 @@ export class AdminPanelComponent implements OnInit {
 
   products: any[] = [];
 
-  nameValue = '';
-  imgValue = '';
-  descriptionValue = '';
-  aboutProductValue = '';
-  detailsProductValue = '';
-  shippingValue = '';
-  priceValue = 0;
-  discountValue = 0;
-  countValue = 0;  
-  id = -1;
-
   getAllProducts() {
     this.productDb.getProducts()
                   .subscribe((data) => this.products = data)

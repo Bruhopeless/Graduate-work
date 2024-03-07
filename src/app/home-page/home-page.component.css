@@ -21,6 +21,7 @@ input {
     width: 120px;
     height: 35px;
     text-align: center;
+    cursor: pointer;
 }
 
 button {
@@ -44,7 +45,7 @@ button:hover {
 
 .product {
     display: grid;
-    grid-template-rows: 180px 60px 40px 50px;
+    grid-template-rows: 190px 60px 40px 50px;
     margin-bottom: 20px;
     border: 1px solid rgb(207, 207, 207);
     border-radius: 15px;

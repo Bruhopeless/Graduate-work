@@ -44,4 +44,5 @@ export class ProductModel {
   discount: number;
   count: number;
   id: any;
+  type: string;
 }
