@@ -33,6 +33,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
     this.getAllProducts();
   }
+  
 
   searchProduct(event: any) {
     let searchStringValue = event.target.value;

@@ -26,12 +26,7 @@ button {
 
 
 @media (min-width: 600px) and (max-width: 839.98px) {
-    input {
-        width: 550px;
-        border: 1px solid;
-    }
-
-    textarea {
+    input, textarea {
         width: 550px;
         border: 1px solid;
     }
@@ -41,5 +36,18 @@ button {
         width: 220px;
         height: 50px;
         font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    input, textarea {
+        width: 450px;
+        border: 1px solid;
+    }
+
+    button {
+        width: 350px;
+        height: 50px;
     }
 }

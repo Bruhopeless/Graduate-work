@@ -48,11 +48,11 @@ export class RegistrationComponent implements OnInit {
 
   });
 
-  this.responsive.observe(Breakpoints.Handset)
+  this.responsive.observe(Breakpoints.XSmall)
       .subscribe(result => {
 
         if (result.matches) {
-          console.log("screens matches Handset");
+          console.log("screens matches XSmall");
         }
 
   });

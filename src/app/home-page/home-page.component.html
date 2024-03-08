@@ -16,7 +16,7 @@
         <div *ngFor="let product of currentPageData" class="product">
             <img src="{{ product.img }}" alt="nike">
             <h5>{{ product.name }}</h5>
-            <div>{{ product.price }} €</div>
+            <div class="price">{{ product.price }} €</div>
             <button [routerLink]="['/details/', product.id]">More</button>
         </div>
     </div>

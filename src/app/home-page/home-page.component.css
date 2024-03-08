@@ -99,3 +99,43 @@ button:hover {
         width: 50px;
     }
 }
+
+
+
+@media (max-width: 480px) {
+    img {
+        margin-left: 95px;
+    }
+
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 400px;
+    }
+
+    .product {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 50px;
+        width: 250px;
+    }
+
+    h5 {
+        font-size: 23px;
+    }
+
+    .price {
+        font-size: 19px;
+        margin-left: 10px;
+    }
+
+    input {
+        border: 1px solid;
+    }
+
+    .change-sorting {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+}

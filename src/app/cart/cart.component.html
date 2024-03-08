@@ -1,8 +1,8 @@
 <div class="container">
-    <div>All orders: {{ this.orderDb.getCount() }}</div>
-    <div>Total price: {{ this.orderDb.getPrice() }}</div>
+    <div class="all-ord">All orders: {{ this.orderDb.getCount() }}</div>
+    <div class="price">Total price: {{ this.orderDb.getPrice() }}</div>
         <div class="order">
-            <div *ngFor="let order of orderDb.orders">
+            <div *ngFor="let order of orderDb.orders" class="ord-prod">
                     <div>{{ order.name }}</div>
                     <img src="{{ order.img }}" alt="">
                     <div>{{ order.productCount }}</div>

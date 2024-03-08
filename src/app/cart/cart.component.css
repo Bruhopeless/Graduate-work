@@ -26,3 +26,18 @@ button {
     }
 
 }
+
+@media (max-width: 480px) {
+    .all-ord, .price {
+        font-weight: bold;
+    }
+
+    img {
+        width: 210px;
+    }
+
+    .order {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

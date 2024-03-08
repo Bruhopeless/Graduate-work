@@ -23,38 +23,6 @@
       "pass": "123",
       "role": "admin",
       "id": "2"
-    },
-    {
-      "firstName": "Valeriia",
-      "lastName": "Kostenko",
-      "email": "123@gmail.com",
-      "pass": "GGfgw33124",
-      "role": "admin",
-      "id": "75c8"
-    },
-    {
-      "id": "fae2",
-      "firstName": "Valeriia",
-      "lastName": "Kostenko",
-      "email": "leraok@ukr.net",
-      "pass": "H322Hfh1",
-      "role": "user"
-    },
-    {
-      "id": "eeca",
-      "firstName": "Valeriia",
-      "lastName": "Kostenko",
-      "email": "lerok@ukr.net",
-      "pass": "Hfhu33fw",
-      "role": "user"
-    },
-    {
-      "id": "31e5",
-      "firstName": "Valeriia",
-      "lastName": "Kostenko",
-      "email": "lerok@ukr.net",
-      "pass": "Hu3hurhs",
-      "role": "user"
     }
   ],
   "products": [

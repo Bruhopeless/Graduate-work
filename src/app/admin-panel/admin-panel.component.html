@@ -6,18 +6,18 @@
             <ul class="panel-prod">
                 <li>Name</li>
                 <li>Image</li>
-                <li>Description</li>
+                <li class="list-descr">Description</li>
                 <li>Price</li>
-                <li>Discount</li>
-                <li>Count</li>
+                <li class="list-descr">Discount</li>
+                <li class="list-descr">Count</li>
             </ul>
             <div *ngFor="let product of products" class="panel-prod">
                 <div class="name">{{ product.name }}</div>
                 <img src="{{ product.img }}" alt="nike">
                 <div class="description">{{ product.description }}</div>
                 <div>{{ product.price }} €</div>
-                <div>{{ product.discount }} %</div>
-                <div>{{ product.count}}</div>
+                <div class="list-descr">{{ product.discount }} %</div>
+                <div class="list-descr">{{ product.count}}</div>
                 <div>
                     <button [routerLink]="['/add-product/', product.id]">Edit</button>
                     <button (click)="deleteProduct(product.id)">Delete</button>
