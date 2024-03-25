@@ -23,6 +23,14 @@
       "pass": "123",
       "role": "admin",
       "id": "2"
+    },
+    {
+      "firstName": "Valeriia",
+      "lastName": "Kostenko",
+      "email": "leraok@ukr.net",
+      "pass": "Hhr4h33f",
+      "role": "admin",
+      "id": "c7e7"
     }
   ],
   "products": [
@@ -33,7 +41,7 @@
       "aboutProduct": "A springy ride for any run, the Peg’s familiar, just-for-you feel returns to help you accomplish your goals. This version has the same responsiveness and neutral support you love, but with improved comfort in those sensitive areas of your foot, like the arch and toes. Whether you’re logging long marathon miles, squeezing in a speed session before the sun goes down or hopping into a spontaneous group jaunt, it’s still the established road runner you can put your faith in, day after day, run after run.",
       "detailsProduct": "Lace up and feel the legacy. These AM90s will keep up with you on all your adventures thanks to a mix of GORE-TEX and mesh materials. Worn by presidents, revolutionized through collabs and celebrated through rare colorways.",
       "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
-      "price": 79.7,
+      "price": 79,
       "discount": 50,
       "count": 1,
       "id": "2",
@@ -233,19 +241,6 @@
       "discount": 0,
       "count": 0,
       "type": "socks"
-    },
-    {
-      "id": "ade2",
-      "name": "Nike Sportswear Phoenix Fleece",
-      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8124ee8-b29c-49a8-8ad0-9a7fb0f45cf2/sportswear-phoenix-fleece-womens-oversized-crew-neck-sweatshirt-KQxbFk.png",
-      "description": "Grounded in style, comfort and versatility, meet our take on luxury loungewear. This classic sweatshirt helps you stay cozy all day long, thanks to its midweight fleece that feels soft yet structured. Plus, the taller ribbing and oversized fit give you a trend-right look.",
-      "aboutProduct": "Our midweight brushed fleece feels extra soft on the inside and smooth on the outside, helping you stay cozy while keeping its structured shape.\nDropped shoulder seams and oversized fit provide a casual, relaxed look.",
-      "detailsProduct": "Elongated ribbing\nEmbroidered Swoosh logo\nBody: 80% cotton/20% polyester. Rib: 97% cotton/3% spandex.\nMachine wash\nImported\nShown: Light Armory Blue/Sail\nStyle: DQ5733-441",
-      "shipping": "We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable. Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order. Processing Time + Shipping Time = Delivery Time",
-      "price": 64.54,
-      "discount": 0,
-      "count": 0,
-      "type": "outerwear"
     }
   ],
   "cart": [
